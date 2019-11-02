@@ -1,7 +1,7 @@
 
 def Song
 
-  attr_accessor :color, :size, :material, :condition
+  attr_accessor :artist, :name, :genre
   attr_reader :brand
 
 
