@@ -24,11 +24,11 @@ end
     @@genres << genre
   end
 
-  def artists
+  def self.artists
     @@artists
   end
 
-  def genres
+  def self.genres
     @@genres
   end
 
