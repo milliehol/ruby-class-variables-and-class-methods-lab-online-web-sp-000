@@ -26,4 +26,12 @@ end
     @@genres << genre
   end
 
+  def artists
+    @@artists
+  end
+
+  def genres
+    @@genres
+  end
+
 end
