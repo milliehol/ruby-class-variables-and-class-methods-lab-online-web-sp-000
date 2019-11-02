@@ -17,7 +17,7 @@ end
 
   BRANDS = []
 
-  def initialize(brand)
+  def initialize(name, artist, genre)
     @brand = brand
     BRANDS << brand
     BRANDS == BRANDS.uniq!
