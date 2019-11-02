@@ -1,5 +1,5 @@
 
-def Song
+class Song
 
   attr_accessor :artist, :name, :genre
   attr_reader :album_count
