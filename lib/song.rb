@@ -15,12 +15,15 @@ def self.count
 end
 
 
-  BRANDS = []
+  @@artists = []
+  @@genres = []
 
   def initialize(name, artist, genre)
-    @brand = brand
-    BRANDS << brand
-    BRANDS == BRANDS.uniq!
+    @name = name
+    @artist = artist
+    @genre = genre
+    @@artists << artist
+    @@genres << genre
   end
 
 end
